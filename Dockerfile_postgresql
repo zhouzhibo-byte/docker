@@ -1,0 +1,12 @@
+# 使用官方的PostgreSQL镜像
+FROM postgres:16.4
+
+# 设置环境变量（设置数据库登录密码）
+ENV POSTGRES_PASSWORD=123456
+
+# 暴露PostgreSQL的默认端口
+EXPOSE 5432
+
+# 在容器启动时执行命令
+CMD ["postgres"]
+
