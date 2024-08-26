@@ -1,2 +1,2 @@
-# docker
-docker 镜像
+github仓库名称： docker
+功能：结合阿里云个人镜像仓库，实现镜像备份，防止镜像源失效！
